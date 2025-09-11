@@ -1,0 +1,10 @@
+LOGICA DE PROGRAMAÇÃO
+
+Git hub = Social 
+Git = software 
+
+
+Trazer trabalho para maquina (Git clone) 
+Devolver para git hub ( git add, git push , git commit -m)
+Atualizar repositório na maquina (git pull)
+
