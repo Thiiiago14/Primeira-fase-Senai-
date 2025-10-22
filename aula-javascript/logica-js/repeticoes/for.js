@@ -23,8 +23,9 @@
 // }
 // alert("soma: " + soma)
 
-const nomes = ["Dona bete", "Mano juca", "Lucio fernando", "capitão ganso"]
-// alert(nomes[0])
+// 
+let x = 2
 
-for(let i=0; i<4; i++)
-    alert(nomes[i])
+for (let i = 0; i <= 99; i++){
+    console.log("numero com for:", i);
+} 
