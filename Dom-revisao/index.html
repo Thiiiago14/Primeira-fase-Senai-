@@ -1,38 +1,32 @@
 <!DOCTYPE html>
-<html lang="pr-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Revisão</title>
+    <title>revrevrevrev</title>
 </head>
 <body>
-    <h1>Revisão de DOM</h1>
+    <h1 id="titulo">Revisão</h1>
 
+    <div id="ex1014">
+        <label>Distância(km)</label>    <br>
+        <input id="inputDistancia" type="text">         <br>
+        <label>Combustível(litros)</label>  <br>
+        <input id="inputCombustivel" type="text">         <br>
+                                    <br>
+        <button onclick="calcularEx1014()">Calcular</button>   <br>
+        <div id="resultadoConsumo"></div>
+    </div>
 
-<label>Distancia</label>         <br>
-<input type="text">              <br>
-<label>Combustivel</label>       <br>
-<input type="text">              <br>
-                                 <br>
-<button>Calcular</button>        <br>
+    <div id="container">
+        <label>Nome de teste</label>
+        <input id="inputNome" type="text">
+    
+        <button onclick="executarTeste()">teste</button>
+        <div id="resultado"></div>
 
-
-<div id="resultadoConsumo">Aqui vai aparecer o resultado...</div>
-
-
-
-<hr>
-    <label for="">Nome</label>
-
-    <input id="inputUsuario" type="text">
-
-    <button onclick="cadastrarUsuario()" id="btCadastrar">Cadastrar</button>
-   
-    <button>Editar</button>
-    <div id="resultado"></div>
-
-<script src="script.js"></script>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
-
